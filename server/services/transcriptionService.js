@@ -1,6 +1,6 @@
-
-const mockTranscript = async (videoUrl) => {
-  return `Transcript for video: ${videoUrl} - "Welcome to Professor Chad's lecture..."`;
+const generateTranscript = async (videoUrl) => {
+  // Mock transcript generation - replace with actual AI service
+  return `Generated transcript for video: ${videoUrl}\n\nWelcome to this lecture...`;
 };
 
-module.exports = { mockTranscript };
+module.exports = { generateTranscript };
